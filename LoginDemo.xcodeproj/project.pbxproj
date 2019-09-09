@@ -15,6 +15,7 @@
 		C46068152326F91B00AF48EC /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46068142326F91B00AF48EC /* SignUpViewController.swift */; };
 		C46068172326F92700AF48EC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46068162326F92700AF48EC /* LoginViewController.swift */; };
 		C46068192326F93D00AF48EC /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46068182326F93D00AF48EC /* HomeViewController.swift */; };
+		C460681C2327051E00AF48EC /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = C460681B2327051E00AF48EC /* Utilities.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		C46068142326F91B00AF48EC /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		C46068162326F92700AF48EC /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		C46068182326F93D00AF48EC /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		C460681B2327051E00AF48EC /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				C46068022326F79500AF48EC /* AppDelegate.swift */,
+				C460681D2327056200AF48EC /* Helpers */,
 				C460681A2326F95800AF48EC /* Controller */,
 				C46068062326F79500AF48EC /* Main.storyboard */,
 				C46068092326F79600AF48EC /* Assets.xcassets */,
@@ -79,6 +82,14 @@
 				C46068142326F91B00AF48EC /* SignUpViewController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		C460681D2327056200AF48EC /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				C460681B2327051E00AF48EC /* Utilities.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +163,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C460681C2327051E00AF48EC /* Utilities.swift in Sources */,
 				C46068192326F93D00AF48EC /* HomeViewController.swift in Sources */,
 				C46068172326F92700AF48EC /* LoginViewController.swift in Sources */,
 				C46068152326F91B00AF48EC /* SignUpViewController.swift in Sources */,
