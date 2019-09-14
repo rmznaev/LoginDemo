@@ -73,7 +73,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="BZC-hc-dkc">
-                                <rect key="frame" x="40" y="84.000000000000014" width="295" height="230.33333333333337"/>
+                                <rect key="frame" x="40" y="128" width="295" height="230.33333333333337"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lnn-L6-mOD">
                                         <rect key="frame" x="0.0" y="0.0" width="295" height="50"/>
@@ -138,7 +138,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="uxE-bp-mES">
-                                <rect key="frame" x="40" y="83.999999999999972" width="295" height="370.33333333333326"/>
+                                <rect key="frame" x="40" y="127.99999999999997" width="295" height="370.33333333333326"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="First Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ceI-RG-wuv">
                                         <rect key="frame" x="0.0" y="0.0" width="295" height="50"/>
@@ -240,9 +240,11 @@
         <!--Navigation Controller-->
         <scene sceneID="bfu-Oe-Xsb">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="kph-Ht-G6v" sceneMemberID="viewController">
+                <placeholder placeholderIdentifier="IBFirstResponder" id="INq-Zi-a1Y" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="kph-Ht-G6v" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Oiu-zJ-ZBL">
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -250,7 +252,6 @@
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="txK-2R-1Jl"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="INq-Zi-a1Y" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="315.94202898550725" y="765.40178571428567"/>
         </scene>
