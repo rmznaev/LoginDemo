@@ -39,10 +39,23 @@ class SignUpViewController: UIViewController {
         
     }
     
+    // Check the fields and validate that the data is correct. If everything is correct this method returns nil. Otherwise it returns error message
+    func validateFields() -> String? {
+        
+        // Check that all fields are filled in
+        
+        
+        return nil
+        
+    }
     
     @IBAction func signUpTapped(_ sender: Any) {
         
+        // Validate the fields
         
+        // Create the user
+        
+        // Transition to the home screen
         
     }
     
